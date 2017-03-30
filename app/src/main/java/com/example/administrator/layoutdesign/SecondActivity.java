@@ -11,12 +11,13 @@ import android.view.View;
  * Created by Administrator on 1/27/2017.
  */
 public class SecondActivity extends Activity{
-
+Button first;
     @Nullable
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
+        first=findviewById(R.id.button1);
 
     }
 }
